@@ -8,13 +8,16 @@
 Local Project to Online Repo
 
 // New Git instantiation starting fresh
+
     git init -b main
 
 // Adding and updating all Project files o local Git
+
     git add .
     git commit -m "First commit"
 
 // Pushing local Git to Online Repo
+
     git remote add origin <URL>
     git remote -v
     git push origin main
